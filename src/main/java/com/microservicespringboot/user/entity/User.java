@@ -16,6 +16,7 @@ import javax.persistence.Id;
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
+    // testing the user
     private Long userId;
     private String firstName;
     private String lastName;
